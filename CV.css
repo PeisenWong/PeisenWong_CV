@@ -1,0 +1,304 @@
+.ButtonGroups
+{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.RBCHeader
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.RBCHeader-text
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.nav-item
+{
+    font-size: larger;
+    /* color: white; */
+}
+
+.nav-link
+{
+    color: white;
+}
+
+.section-title
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.paragraph
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* About.html */
+.progressbar-text
+{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.progress
+{
+    height: 25px;
+}
+
+.progress-bar
+{
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dic-header
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.dic-text
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.aboutme-header
+{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.aboutme-pic
+{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    border: 5px double white;
+}
+
+.aboutme-body
+{
+    margin-top: 30px;
+}
+
+.skill-header
+{
+    margin-top: 100px;
+}
+
+.skill-body
+{
+    margin-top: 30px;
+    background-color: white;
+}
+
+.achievement-header
+{
+    margin-top: 100px;
+}
+
+.achievement
+{
+    margin-top: 30px;
+}
+
+.achievement-border
+{
+    border-style: solid double;
+    border-color: white;
+    border-width: 10px;
+}
+
+.achievement-title
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px;
+    padding: 50px;
+}
+
+.achievement-text
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: none;
+    padding: 30px;
+    font-style: italic;
+}
+
+/* end about.html */
+
+/* home.html */
+.home-title
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+
+.home-text
+{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.home-button
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px 50px;
+    margin-left: 20px;
+}
+
+/* footer */
+footer
+{
+    background-color: rgb(162, 177, 191);
+    margin-top: 30px;
+}
+
+.footer-copyright
+{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.fa
+{
+    font-size: 50px;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+.fa:hover
+{
+    opacity: 0.8;
+}
+
+.fa-facebook
+{
+    background-color: #3968cf;
+}
+
+.fa-instagram
+{
+    background-color: #ea4c89;
+}
+
+.fa-whatsapp
+{
+    background-color: greenyellow;
+}
+
+.fa-google
+{
+    background-color: red;
+}
+
+.social-text
+{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+/* end footer */
+
+/* activities.html */
+
+.activities-title
+{
+    font-size: 50px;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.activities-text
+{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.activity-section-header
+{
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.second-section-header
+{
+    margin-top: 100px;
+}
+
+.activity-pic
+{
+    width: 100%;
+    height: auto;
+}
+
+.chess-2
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.math-2
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
