@@ -8,25 +8,6 @@
     font-style: italic;
 }
 
-.RBCHeader
-{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.RBCHeader-text
-{
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    text-align: center;
-    font-style: italic;
-    margin-top: 20px;
-}
-
 .nav-item
 {
     font-size: larger;
@@ -97,6 +78,8 @@
 {
     margin-top: 80px;
     margin-bottom: 10px;
+    border: 15px double white;
+    padding: 20px 10px;
 }
 
 .aboutme-pic
@@ -104,7 +87,7 @@
     width: 100%;
     height: auto;
     padding: 30px 20px;
-    border: 5px double white;
+    border: 5px solid white;
 }
 
 .aboutme-body
@@ -115,6 +98,8 @@
 .skill-header
 {
     margin-top: 100px;
+    border: 10px double white;
+    padding: 20px 10px;
 }
 
 .skill-body
@@ -126,6 +111,8 @@
 .achievement-header
 {
     margin-top: 100px;
+    border: 10px double white;
+    padding: 20px 10px;
 }
 
 .achievement
@@ -250,11 +237,18 @@ footer
 /* end footer */
 
 /* activities.html */
+.activities-header
+{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    border: 15px double white;
+    padding: 20px 10px;
+}
 
 .activities-title
 {
     font-size: 50px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -276,6 +270,8 @@ footer
     margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
+    border: 10px double white;
+    padding: 20px 10px;
 }
 
 .second-section-header
@@ -287,6 +283,7 @@ footer
 {
     width: 100%;
     height: auto;
+    margin: 10px;
 }
 
 .chess-2
@@ -301,4 +298,53 @@ footer
     width: 100%;
     height: auto;
     margin-bottom: 50px;
+}
+
+.accordion-text
+{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.accordion-text-below
+{
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 0%;
+}
+
+
+.accordion-text-list
+{
+    text-align: start;
+}
+
+/* RBC.html */
+.rbc-header-row
+{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    border: 15px double white;
+    padding: 20px 10px;
+}
+
+.RBCHeader
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.RBCHeader-text
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
 }
