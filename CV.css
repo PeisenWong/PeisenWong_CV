@@ -1,3 +1,8 @@
+body
+{
+    background-color: antiquewhite;
+}
+
 .ButtonGroups
 {
     width: auto;
@@ -347,4 +352,56 @@ footer
     text-align: center;
     font-style: italic;
     margin-top: 20px;
+}
+
+/* end RBC.html */
+
+/* Galleries.html */
+.gallery-header
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: 80px 0px;
+    text-align: center;
+    text-decoration: underline;
+    border: 20px double white;
+    padding: 20px;
+}
+
+.section-gallery
+{
+    margin-bottom: 80px;
+}
+
+.section-gallery-header
+{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.section-gallery-text
+{
+    margin: 20px 0px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.gallery
+{
+    border: 15px double white;
+    /* padding: 50px; */
+}
+
+.gallery-desc
+{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
 }

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTM RBC</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="CV.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <style>
+        img
+        {
+            width: 100%;
+            height: auto;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">PeisenWong</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+                    <div class="navbar-toggler-icon"></div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <div class="navbar-nav">
+                        <a href="about.html" class="nav-item nav-link">About me</a>
+                        <a href="activities.html" class="nav-item nav-link">Activities</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Journey</a>
+                            <div class="dropdown-menu">
+                                <a href="secondary_gallery.html" class="nav-item dropdown-item">Secondary School</a>
+                                <a href="matriculation_gallery.html" class="nav-item dropdown-item">Matriculation</a>
+                                <a href="RBC_gallery.html" class="nav-item dropdown-item">UTM Robocon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>    
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="gallery-header">My Journey in Robotics</div>
+        </div>
+
+        <div class="row section-gallery">
+            <div class="col-sm my-auto">
+                <a href="PeisenWong/robotic_2.jpg" target="_blank">
+                    <img src="PeisenWong/robotic_2.jpg" alt="junior_training">
+                </a>
+                <div class="gallery-desc">Autocar Challenge</div> 
+                
+            </div>
+            <div class="col-lg text-center">
+                <a href="PeisenWong/robotic_3.jpg" target="_blank">
+                    <img src="PeisenWong/robotic_3.jpg" alt="junior_training">
+                </a>
+                <div class="gallery-desc">Shooting Mechanism Design</div>
+
+                <div class="gallery">
+                    <div class="section-gallery-header">
+                        Junior Training
+                    </div>
+                    <div class="section-gallery-text">
+                        The training can be specified into 2 period which are autocar challenge and department training.<br>
+                        I have learnt much basic programming skills for robot during this period with the 
+                        help of seniors<br>
+                    </div>
+                    <div class="accordion" id="RBC">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                               <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#autocar">
+                                   Autocar Challenge
+                               </button> 
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="RBC" id="autocar">
+                                <div class="card-body accordion-text accordion-text-list">
+                                    <ul>
+                                        <li>Learnt basics about robotic</li>
+                                        <li>Simulation of microcontroller using Proteus</li>
+                                        <li>Solder the electronic board of autocar</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                               <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#department">
+                                   Department Training
+                               </button> 
+                            </div>
+                            <div class="accordion-collapse collapse" data-bs-parent="department" id="department">
+                                <div class="card-body accordion-text accordion-text-list">
+                                    <ul>
+                                        <li>Design mechanism part using SOLIDWORKS</li>
+                                        <li>Design PCB using Althium</li>
+                                        <li>Register Programming of STM32</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="section-gallery-text">
+                        Autocar Challenge:<br>
+                        <ul>
+                            <li>Learnt basics about robotic</li>
+                            <li>Simulation of microcontroller using Proteus</li>
+                            <li>Solder the electronic board of autocar</li>
+                        </ul>
+                    </div>
+                    <div class="section-gallery-text">
+                        Department Training:<br>
+                        <ul>
+                            <li>Design mechanism part using SOLIDWORKS</li>
+                            <li>Design PCB using Althium</li>
+                            <li>Register Programming of STM32</li>
+                        </ul>
+                    </div> -->    
+                </div>
+                <a href="PeisenWong/robotic_1.jpg" target="_blank">
+                    <img src="PeisenWong/robotic_1.jpg" alt="junior_training">
+                </a>
+                <div class="gallery-desc">Valve Tester Circuit Design</div>
+            </div> 
+        </div>
+
+        <div class="row section-gallery">
+            <div class="gallery">
+                <div class="section-gallery-header">
+                    Programming Development
+                </div>
+                <div class="section-gallery-text">
+                    After junior training, I started to work as a developer in programming department. <br>
+                    During the period, I developed path plan tuner which enable the communication between microcontroller and PC via 
+                    bluetooth. This program helps operator to tune their robot's path easily with visualization.<hr></div>
+                <div class="section-gallery-text">    
+                    After that, I also developed the scoreboard to collect the data during team training and demos.<br>
+                    Those data can be export to excel file with 1 button for further analysis.
+                </div>
+            </div>
+            <div class="col-sm my-auto">
+                <a href="PeisenWong/ros.png" target="_blank">
+                    <img src="PeisenWong/ros.png" alt="ROS">
+                </a>
+                <div class="gallery-desc">Path Plan Tuner with ROS visualization</div>
+            </div>
+            <div class="col-sm">
+                <a href="test_photo.jpeg" target="_blank">
+                    <img src="test_photo.jpeg" alt="ScoreBoard">
+                </a>
+                <div class="gallery-desc">ScoreBoard</div>
+            </div>
+        </div>
+
+        <div class="row section-gallery">
+            <div class="gallery">
+                <div class="section-gallery-header">
+                    Robocon Malaysia 2022
+                </div>
+                <div class="section-gallery-text">
+                    Robocon Malaysia 2022 was held at USM sport hall, which is located at Penang.<br>
+                    It is a nice experience for me to travel with whole team to Penang Island to participate in this competition.
+                </div>
+            </div>
+            <div class="col-sm">
+                <a href="PeisenWong/25.JPG" target="_blank">
+                    <img src="PeisenWong/25.JPG" alt="ROS">
+                </a>
+                <div class="gallery-desc">Team Photo</div>
+            </div>
+            <div class="col-sm">
+                <a href="PeisenWong/40.JPG" target="_blank">
+                    <img src="PeisenWong/40.JPG" alt="ScoreBoard">
+                </a>
+                <div class="gallery-desc">First Place in Robocon Malaysia 2022</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container" style="text-align: center;">
+            <div class="row justify-content-center">
+                <div class="col-sm-2">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                    <div class="social-text">Wong Pei Sen</div>
+                </div>
+                <div class="col-sm-2">
+                    <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram" target="_blank"></a>
+                    <div class="social-text">peisen_wong</div>
+                </div>
+                <div class="col-sm-2">
+                    <span class="fa fa-whatsapp"></span>
+                    <div class="social-text">012-2117563</div>
+                </div>
+                <div class="col-sm-2">
+                    <span class="fa fa-google"></span>
+                    <div class="social-text">wongpeisen@gmail.com</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">Copyright @ PeisenWong</div>
+    </footer>
+    
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
